@@ -1,126 +1,53 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
-  name: Agustin Loos
-  headline: "Full Stack Developer | React, Node.js, NestJS, TypeScript, Go | Platform, IoT & DevOps | AI-Assisted Development"
-  location: Bahia Blanca, Buenos Aires, Argentina
-  email: loosagustin@gmail.com
-  phone: "+5492926407072"
-  website: https://agustinloos.dev/
+  name: Sebastian Amoroso
+  headline: "Electronics Engineer | Hardware Design & Development | Mechatronics & 3D Modeling | Firmware"
+  location: CABA (Villa Crespo), Argentina
+  email: sevastianamoroso@gmail.com
   social_networks:
-    - network: LinkedIn
-      username: agustinloos
     - network: GitHub
-      username: agustinso0
+      username: sevastianamoroso
 
   sections:
     professional_profile:
-      - "Full Stack Developer with a backend focus, specialized in React, Node.js, NestJS, and TypeScript. I build web applications, REST APIs, and modular systems by combining technical judgment, good practices, and a business-oriented approach to solving real problems."
-      - "I use AI-assisted development as part of my technical workflow: tools such as OpenCode, Engram, and Gentle AI help me with code analysis, documentation, controlled refactors, inconsistency reviews, task design, and productivity improvements. I apply SDD and TDD to organize requirements, reduce uncertainty, and validate changes with tests before scaling complexity."
-      - "I am interested in continuing to grow in teams where I can contribute through full stack development, backend architecture, technical quality, and continuous improvement of digital products."
-
-    skills:
-      - label: Languages
-        details: JavaScript, TypeScript, SQL, HTML5, CSS3
-      - label: Frontend
-        details: "React, Next.js, Redux, state management, API consumption, reusable components, forms, responsive design"
-      - label: Backend
-        details: "Node.js, NestJS, Express.js, RESTful APIs, JWT, authentication, authorization, data validation, error handling, modular architecture, service design, WebSockets"
-      - label: Databases
-        details: "PostgreSQL, SQL, MongoDB, Redis, Prisma ORM, data modeling, schema design, query optimization"
-      - label: Testing & Quality
-        details: "TDD, Jest, unit/integration/e2e tests, ESLint, Prettier, type checking, debugging, code review"
-      - label: Tools & DevOps
-        details: "Linux, Docker, Git, GitHub, GitHub Actions, CI/CD, terminal, environment configuration, troubleshooting"
-      - label: AI-Assisted Development
-        details: "OpenCode, Engram, Gentle AI, SDD, AI-assisted code analysis, guided refactoring, test generation and review"
-      - label: Good Practices
-        details: "Clean Code, separation of responsibilities, modular architecture, ports/adapters, version control, documentation"
-      - label: Additional Backend
-        details: "Go, ports/adapters architecture, strict TDD (go test)"
-      - label: IoT / Embedded
-        details: "MQTT, mTLS, Modbus RTU, Protobuf, AWS IoT Core, Eclipse hawkBit (OTA), embedded C firmware diagnostics"
-      - label: Additional Infra/DevOps
-        details: "Self-managed GitLab, Package Registry, TLS certificate management, OpenProject"
-      - label: Desktop Apps
-        details: "Wails, Fyne"
+      - "Electronics Engineer graduated from Universidad Nacional del Sur, focused on hardware design and development, mechatronics integration, and 3D modeling. Experienced in electronic circuit and PCB design, mechanical parts and sheet metal design, along with embedded systems firmware development."
+      - "Currently working at Pump Control as Mechatronics Specialist (previously in the Hardware Design Engineering team), delivering comprehensive electronic and mechanical solutions for industrial measurement and control systems."
 
     experience:
       - company: Pump Control S.R.L.
-        position: Full Stack Developer Jr → Platform Specialist
+        position: "Mechatronics Specialist (previously: Hardware Designer)"
         location: Argentina
-        start_date: 2026-06
+        start_date: 2023-01
         end_date: present
-        summary: "Industrial IoT — fuel measurement and control equipment for the oil & gas industry."
+        summary: "Industrial measurement, control, and telemetry equipment for the oil & gas and fuel industries."
         highlights:
-          - "Built and maintained the internal technical documentation platform (Docusaurus + multi-repo federation pipeline), integrating corporate SSO (Microsoft Entra ID) and a Go backend service for tiered authorization and access auditing of private manuals."
-          - "Designed and implemented, through full SDD/TDD cycles, the deployment of an OTA update server (Eclipse hawkBit) across testing and production, including Zephyr firmware and a device simulator to validate the full flow against real hardware."
-          - "Built a Go-based CI/CD tool for secure firmware secret distribution via GitLab Package Registry, adopted by the Firmware team; diagnosed and fixed real production bugs involving TLS and Git identity."
-          - "Diagnosed a critical embedded C firmware bug causing field reboots of an industrial controller: identified the root cause (a TLS/TCP handling overflow) and built a reproduction tool that let the Firmware team validate and implement the fix."
-          - "Contributed to a desktop application (Go + Wails) for device firmware recovery via the MCUboot/SMP protocol: ports/adapters architecture, CLI, and UI/UX improvements."
-          - "Developed end-of-line (EOL) production testing tools: migrated a Python test bench for an IoT device to Go (MQTT/mTLS, AWS IoT Core, Protobuf), and built a Go-based EOL test program using Modbus RTU for another product line."
-          - "Resolved internal infrastructure incidents (TLS certificate rotation, testing environments, self-managed GitLab) and contributed to improvements in an embedded controller's frontend (React/TypeScript)."
-
-      - company: Aloise Sur
-        position: Full Stack Developer (Freelance)
-        location: Argentina
-        start_date: 2025-03
-        end_date: 2025-10
-        highlights:
-          - "Developed features for a financial dashboard, improving the consultation and visualization of operational information."
-          - "Contributed to the implementation of an ERP system focused on reducing manual tasks and organizing internal processes."
-          - "Designed and developed full stack features using Next.js, TypeScript, and databases."
-          - "Implemented Docker to standardize development environments and reduce environment differences."
-          - "Optimized queries and data structures to improve response times in frequent operations."
-          - "Developed administrative interfaces and management views focused on usability and clear information display."
-
-      - company: Smurfit Westrock
-        position: Trainee Apprentice
-        location: Argentina
-        start_date: 2024-01
-        end_date: 2024-05
-        highlights:
-          - "Provided technical support to internal users, resolving incidents related to systems, connectivity, and equipment."
-          - "Performed preventive and corrective maintenance tasks on systems and networks."
-          - "Documented incidents and basic procedures to support the follow-up of recurring problems."
-
-    projects:
-      - name: Passenger Transportation Management System
-        start_date: 2024
-        end_date: present
-        summary: "Backend API — Node.js 20, NestJS 11, TypeScript strict, PostgreSQL, Prisma ORM, Redis, BullMQ, JWT/Passport, Swagger/OpenAPI, Jest, Docker, GitHub Actions."
-        highlights:
-          - "Developed a backend API using a modular monolith architecture, separating responsibilities by domain and maintaining clear contracts between modules."
-          - "Designed modules for Auth, Companies, Users, Drivers, Vehicles, Routes, Trips, Bookings, Payments, Invoices, Notifications, Analytics, Audit Log, and Health."
-          - "Implemented a multi-tenant approach with request-based context resolution and support for asynchronous flows."
-          - "Applied the ports/adapters pattern to decouple use cases, persistence, and integrations between modules."
-          - "Integrated Redis for cache, locks, rate limiting, and BullMQ for background processing."
-          - "Used domain events and the outbox pattern to improve traceability and consistency in internal operations."
-          - "Added testing with Jest across unit, integration, and e2e layers, including architecture guardrails and regression checks."
-          - "Used SDD and TDD with AI tools to generate test hypotheses, detect edge cases, review regressions, and validate refactors."
+          - "Design and development of electronic hardware for industrial controllers and devices."
+          - "3D modeling and mechanical design of sheet metal parts, assemblies, and enclosures."
+          - "Firmware development and maintenance for embedded platform support and integration."
 
     education:
-      - institution: Universidad Tecnológica Nacional FRBB
-        area: Programming
-        degree: University Technician
-        start_date: 2024
-        end_date: 2025
-        highlights:
-          - "GPA: 8.78"
-
       - institution: Universidad Nacional del Sur
-        area: Information Systems Engineering
-        degree: ""
-        start_date: 2022
-        end_date: 2023
+        area: Electronic Engineering
+        degree: Electronic Engineer
+        start_date: 2021
+        end_date: 2026
 
-      - institution: "Escuela de Educación Secundaria Técnica N.º 1, Coronel Suárez"
-        area: Professional and Personal IT
-        degree: Technician
-        start_date: 2015
-        end_date: 2021
+    skills:
+      - label: Hardware Design & EDA
+        details: "KiCad, Altium Designer, schematic capture, multi-layer PCB layout, circuit simulation (LTspice)"
+      - label: Mechanical & 3D CAD
+        details: "Autodesk Inventor, FreeCAD, mechanical part modeling, sheet metal design, enclosure design and assemblies"
+      - label: Firmware & Embedded Systems
+        details: "C, C++, microcontrollers (STM32, ESP32), RTOS, Zephyr RTOS"
+      - label: Protocols & Communication
+        details: "UART, I2C, SPI, CAN bus, Modbus"
+      - label: Laboratory & Instrumentation
+        details: "Oscilloscope, logic analyzer, soldering rework stations, bench testing and hardware debugging"
+      - label: Tools & Methodologies
+        details: "Git, AI-assisted development (Claude Code, Antigravity)"
 
     languages:
       - label: Spanish
         details: Native
       - label: English
-        details: Intermediate
+        details: Advanced (CAE - Certificate in Advanced English)

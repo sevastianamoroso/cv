@@ -1,126 +1,53 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
-  name: Agustin Loos
-  headline: "Full Stack Developer | React, Node.js, NestJS, TypeScript, Go | Plataforma, IoT y DevOps | Desarrollo asistido con IA"
-  location: Bahía Blanca, Buenos Aires, Argentina
-  email: loosagustin@gmail.com
-  phone: "+5492926407072"
-  website: https://agustinloos.dev/
+  name: Sebastian Amoroso
+  headline: "Ingeniero Electrónico | Diseño y Desarrollo de Hardware | Mecatrónica & Modelado 3D | Firmware"
+  location: CABA (Villa Crespo), Argentina
+  email: sevastianamoroso@gmail.com
   social_networks:
-    - network: LinkedIn
-      username: agustinloos
     - network: GitHub
-      username: agustinso0
+      username: sevastianamoroso
 
   sections:
     perfil_profesional:
-      - "Full Stack Developer con foco en backend, especializado en React, Node.js, NestJS y TypeScript. Desarrollo aplicaciones web, APIs REST y sistemas modulares combinando criterio técnico, buenas prácticas y una mirada orientada a resolver problemas reales de negocio."
-      - "Trabajo con desarrollo asistido por IA como parte de mi flujo técnico: uso herramientas como OpenCode, Engram y Gentle AI para análisis de código, documentación, refactors controlados, revisión de inconsistencias, diseño de tareas y mejora de productividad. Aplico SDD y TDD para ordenar requerimientos, bajar incertidumbre y validar cambios con pruebas antes de escalar complejidad."
-      - "Me interesa seguir creciendo en equipos donde pueda aportar desde el desarrollo full stack, la arquitectura backend, la calidad técnica y la mejora continua de productos digitales."
-
-    habilidades_técnicas:
-      - label: Lenguajes
-        details: JavaScript, TypeScript, SQL, HTML5, CSS3
-      - label: Frontend
-        details: "React, Next.js, Redux, state management, consumo de APIs, componentes reutilizables, formularios, responsive design"
-      - label: Backend
-        details: "Node.js, NestJS, Express.js, RESTful APIs, JWT, autenticación, autorización, validación de datos, manejo de errores, arquitectura modular, diseño de servicios, WebSockets"
-      - label: Bases de Datos
-        details: "PostgreSQL, SQL, MongoDB, Redis, Prisma ORM, modelado de datos, diseño de esquemas, optimización de consultas"
-      - label: Testing y Calidad
-        details: "TDD, Jest, tests unitarios/integración/e2e, ESLint, Prettier, type checking, debugging, revisión de código"
-      - label: Herramientas y DevOps
-        details: "Linux, Docker, Git, GitHub, GitHub Actions, CI/CD, terminal, configuración de entornos, troubleshooting"
-      - label: IA aplicada al desarrollo
-        details: "OpenCode, Engram, Gentle AI, SDD, análisis asistido de código, refactorización guiada, generación y revisión de pruebas"
-      - label: Buenas Prácticas
-        details: "Clean Code, separación de responsabilidades, arquitectura modular, ports/adapters, control de versiones, documentación"
-      - label: Backend adicional
-        details: "Go, arquitectura ports/adapters, TDD estricto (go test)"
-      - label: IoT / Embebido
-        details: "MQTT, mTLS, Modbus RTU, Protobuf, AWS IoT Core, Eclipse hawkBit (OTA), diagnóstico de firmware en C"
-      - label: Infraestructura/DevOps adicional
-        details: "GitLab self-managed, Package Registry, gestión de certificados TLS, OpenProject"
-      - label: Apps de escritorio
-        details: "Wails, Fyne"
+      - "Ingeniero Electrónico graduado de la Universidad Nacional del Sur, enfocado en el diseño y desarrollo de hardware, integración mecatrónica y modelado 3D. Experiencia en diseño de circuitos electrónicos, diseño de piezas mecánicas y chapa metálica (sheet metal), y desarrollo de firmware para sistemas embebidos."
+      - "Actualmente me desempeño en Pump Control como Especialista en Mecatrónica (con trayectoria previa en el área de Ingeniería en Diseño de Hardware), participando en el desarrollo integral de soluciones electrónicas y mecánicas para equipos de medición y control."
 
     experiencia_laboral:
       - company: Pump Control S.R.L.
-        position: Full Stack Developer Jr → Especialista en Plataforma
+        position: "Especialista en Mecatrónica (previo: Diseñador de Hardware)"
         location: Argentina
-        start_date: 2026-06
+        start_date: 2023-01 # Pendiente: confirmar mes/año de inicio
         end_date: present
-        summary: "IoT industrial — equipos de medición y control de combustibles para la industria petrolera."
+        summary: "Equipos de medición, control y telemetría para la industria petrolera y de combustibles."
         highlights:
-          - "Desarrollé y mantuve la plataforma interna de documentación técnica (Docusaurus + pipeline de federación multi-repo), integrando SSO corporativo (Microsoft Entra ID) y un servicio backend en Go para autorización por niveles y auditoría de accesos a manuales privados."
-          - "Diseñé e implementé, con ciclos completos de SDD/TDD, el despliegue de un servidor de actualizaciones OTA (Eclipse hawkBit) en testing y producción, incluyendo firmware en Zephyr y un simulador de dispositivo para validar el flujo completo contra hardware real."
-          - "Construí una herramienta de CI/CD en Go para distribución segura de secretos de firmware vía GitLab Package Registry, adoptada por el equipo de Firmware; diagnostiqué y corregí bugs reales de TLS e identidad de Git en producción."
-          - "Diagnostiqué un bug crítico de firmware embebido en C que provocaba reinicios en campo de un controlador industrial: identifiqué la causa raíz (overflow en manejo de TLS/TCP) y desarrollé una herramienta de reproducción que permitió al equipo de Firmware validar e implementar la corrección."
-          - "Participé en el desarrollo de una aplicación de escritorio (Go + Wails) para recuperación de firmware de dispositivos vía protocolo MCUboot/SMP: arquitectura ports/adapters, CLI y mejoras de UI/UX."
-          - "Desarrollé herramientas de testing de fin de línea (EOL) para producción: migración de Python a Go de un bench de prueba para un dispositivo IoT (MQTT/mTLS, AWS IoT Core, Protobuf) y un programa de pruebas EOL en Go con Modbus RTU para otro producto de la línea."
-          - "Resolví incidencias de infraestructura interna (rotación de certificados TLS, entornos de testing, GitLab self-managed) y colaboré en mejoras del frontend embebido de un controlador (React/TypeScript)."
-
-      - company: Aloise Sur
-        position: Desarrollador Full Stack (Freelance)
-        location: Argentina
-        start_date: 2025-03
-        end_date: 2025-10
-        highlights:
-          - "Desarrollé funcionalidades para un dashboard financiero, mejorando la consulta y visualización de información operativa."
-          - "Participé en la implementación de un sistema ERP orientado a reducir tareas manuales y ordenar procesos internos."
-          - "Diseñé y desarrollé funcionalidades full stack utilizando Next.js, TypeScript y bases de datos."
-          - "Implementé Docker para estandarizar entornos de desarrollo y reducir diferencias entre ambientes."
-          - "Optimicé consultas y estructuras de datos para mejorar tiempos de respuesta en operaciones frecuentes."
-          - "Desarrollé interfaces administrativas y vistas de gestión con foco en usabilidad y claridad de información."
-
-      - company: Smurfit Westrock
-        position: Aprendiz Trainee
-        location: Argentina
-        start_date: 2024-01
-        end_date: 2024-05
-        highlights:
-          - "Brindé soporte técnico a usuarios internos, resolviendo incidencias relacionadas con sistemas, conectividad y equipos."
-          - "Realicé tareas de mantenimiento preventivo y correctivo en sistemas y redes."
-          - "Documenté incidencias y procedimientos básicos para facilitar el seguimiento de problemas recurrentes."
-
-    proyectos_destacados:
-      - name: Sistema de Gestión para Transporte de Pasajeros
-        start_date: 2024
-        end_date: present
-        summary: "Backend API — Node.js 20, NestJS 11, TypeScript strict, PostgreSQL, Prisma ORM, Redis, BullMQ, JWT/Passport, Swagger/OpenAPI, Jest, Docker, GitHub Actions."
-        highlights:
-          - "Desarrollo de una API backend con arquitectura de monolito modular, separando responsabilidades por dominio y manteniendo contratos claros entre módulos."
-          - "Diseño de módulos para Auth, Companies, Users, Drivers, Vehicles, Routes, Trips, Bookings, Payments, Invoices, Notifications, Analytics, Audit Log y Health."
-          - "Implementación de enfoque multi-tenant con resolución de contexto por request y soporte para flujos asíncronos."
-          - "Aplicación de patrón ports/adapters para desacoplar casos de uso, persistencia e integraciones entre módulos."
-          - "Integración de Redis para cache, locks, rate limiting y BullMQ para procesamiento en segundo plano."
-          - "Uso de eventos de dominio y outbox pattern para mejorar trazabilidad y consistencia en operaciones internas."
-          - "Testing con Jest en capas unitarias, integración y e2e, incluyendo guardrails de arquitectura y validaciones de regresión."
-          - "Uso de SDD y TDD con herramientas de IA para generar hipótesis de prueba, detectar casos borde, revisar regresiones y validar refactors."
+          - "Diseño y desarrollo de hardware electrónico para equipos y controladores industriales."
+          - "Modelado 3D y diseño mecánico de piezas y conjuntos de chapa metálica (sheet metal) y gabinetes."
+          - "Desarrollo y mantenimiento de firmware en menor medida para soporte e integración de plataformas."
 
     educación:
-      - institution: Universidad Tecnológica Nacional FRBB
-        area: Programación
-        degree: Tecnicatura Universitaria
-        start_date: 2024
-        end_date: 2025
-        highlights:
-          - "Promedio: 8.78"
-
       - institution: Universidad Nacional del Sur
-        area: Ingeniería en Sistemas de Información
-        degree: ""
-        start_date: 2022
-        end_date: 2023
+        area: Ingeniería Electrónica
+        degree: Ingeniero Electrónico
+        start_date: 2021
+        end_date: 2026
 
-      - institution: "Escuela de Educación Secundaria Técnica N.º 1, Coronel Suárez"
-        area: Informática Profesional y Personal
-        degree: Técnico
-        start_date: 2015
-        end_date: 2021
+    habilidades_técnicas:
+      - label: Diseño de Hardware y EDA
+        details: "KiCad, Altium Designer, captura de esquemáticos, ruteo de PCBs multicapa, simulación en LTspice"
+      - label: Diseño Mecánico y CAD 3D
+        details: "Autodesk Inventor, FreeCAD, modelado de piezas mecánicas, chapa plegada (sheet metal), diseño de gabinetes y ensambles"
+      - label: Firmware y Embebidos
+        details: "C, C++, microcontroladores (STM32, ESP32), RTOS, Zephyr RTOS"
+      - label: Protocolos y Comunicación
+        details: "UART, I2C, SPI, CAN bus, Modbus"
+      - label: Instrumental y Laboratorio
+        details: "Osciloscopio, analizador lógico, estaciones de soldadura, pruebas y depuración de placas en banco"
+      - label: Herramientas y Metodologías
+        details: "Git, desarrollo asistido por herramientas de IA (Claude Code, Antigravity)"
 
     idiomas:
       - label: Español
         details: Nativo
       - label: Inglés
-        details: Intermedio
+        details: Avanzado (CAE - Certificate in Advanced English)
