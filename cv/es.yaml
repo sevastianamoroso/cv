@@ -16,14 +16,17 @@ cv:
     experiencia_laboral:
       - company: Pump Control S.R.L.
         position: "Especialista en Mecatrónica (previo: Diseñador de Hardware)"
-        location: Argentina
-        start_date: 2023-01 # Pendiente: confirmar mes/año de inicio
+        location: Buenos Aires, Argentina
+        start_date: 2026-02
         end_date: present
         summary: "Equipos de medición, control y telemetría para la industria petrolera y de combustibles."
         highlights:
-          - "Diseño y desarrollo de hardware electrónico para equipos y controladores industriales."
-          - "Modelado 3D y diseño mecánico de piezas y conjuntos de chapa metálica (sheet metal) y gabinetes."
-          - "Desarrollo y mantenimiento de firmware en menor medida para soporte e integración de plataformas."
+          - "Diseño y desarrollo de arquitectura de hardware SOM (System-on-Module) + carrier board con conectividad celular y microcontrolador para telemetría industrial."
+          - "Diseño y cálculo de placas electrónicas de control, fuentes de alimentación, etapas de filtrado y acondicionamiento de señales."
+          - "Implementación y conexionado de interfaces de comunicación industrial y serie: RS-485, RS-232 y niveles TTL."
+          - "Modelado 3D y diseño mecánico de soportes, bastidores y ensambles en chapa metálica (sheet metal) para montaje de electrónica en equipos."
+          - "Selección técnica y especificación de gabinetes estancos industriales según requerimientos ambientales y de campo."
+          - "Puesta en marcha en banco de prueba y desarrollo de firmware puntual asistido por herramientas de IA (Claude Code, Antigravity) para validación de hardware."
 
     educación:
       - institution: Universidad Nacional del Sur

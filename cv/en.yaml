@@ -16,14 +16,17 @@ cv:
     experience:
       - company: Pump Control S.R.L.
         position: "Mechatronics Specialist (previously: Hardware Designer)"
-        location: Argentina
-        start_date: 2023-01
+        location: Buenos Aires, Argentina
+        start_date: 2026-02
         end_date: present
-        summary: "Industrial measurement, control, and telemetry equipment for the oil & gas and fuel industries."
+        summary: "Measurement, control, and telemetry equipment for the oil & gas and fuel industries."
         highlights:
-          - "Design and development of electronic hardware for industrial controllers and devices."
-          - "3D modeling and mechanical design of sheet metal parts, assemblies, and enclosures."
-          - "Firmware development and maintenance for embedded platform support and integration."
+          - "Design and development of SOM (System-on-Module) + carrier board hardware architecture with cellular connectivity and microcontroller for industrial telemetry."
+          - "Design and calculation of electronic control boards, power supplies, filtering stages, and signal conditioning circuits."
+          - "Implementation and wiring of industrial and serial communication interfaces: RS-485, RS-232, and TTL levels."
+          - "3D modeling and mechanical design of brackets, frames, and sheet metal assemblies for mounting electronics into industrial equipment."
+          - "Technical selection and specification of industrial IP-rated enclosures based on environmental and field requirements."
+          - "Bench testing bring-up and targeted firmware development assisted by AI tools (Claude Code, Antigravity) for hardware validation."
 
     education:
       - institution: Universidad Nacional del Sur
