@@ -28,12 +28,24 @@ cv:
           - "Technical selection and specification of industrial IP-rated enclosures based on environmental and field requirements."
           - "Bench testing bring-up and targeted firmware development assisted by AI tools (Claude Code, Antigravity) for hardware validation."
 
+    projects:
+      - name: 3D-Printed Anthropomorphic Hand Telerobotics System
+        start_date: 2025
+        end_date: present
+        summary: "Capstone Engineering Project (DIEC - UNS) — ESP32, ESP-NOW, FreeRTOS, 3D Printing, MPU6050, Kalman Filter."
+        highlights:
+          - "Development of a real-time tele-robotic system replicating human hand and wrist gestures onto a 3D-printed anthropomorphic robotic hand."
+          - "Point-to-point wireless architecture with two ESP32 microcontrollers communicating via ESP-NOW (2.4 GHz, latency < 5 ms, 50 Hz control loop)."
+          - "Finger flexion tracking and wrist orientation estimation (Pitch/Roll) using an MPU6050 IMU with Kalman filtering and non-volatile Flash calibration (NVS)."
+          - "Multitasking C/C++ firmware built on FreeRTOS with custom binary packet framing and integrity checking via Fletcher-16 checksums."
+          - "Multi-servo PWM control featuring slew-rate acceleration limiting for mechanical protection and failsafe routines on signal loss."
+
     education:
       - institution: Universidad Nacional del Sur
         area: Electronic Engineering
-        degree: Electronic Engineer
+        degree: Electronic Engineer (In progress - Capstone Project in development)
         start_date: 2021
-        end_date: 2026
+        end_date: present
 
     skills:
       - label: Hardware Design & EDA

@@ -28,12 +28,24 @@ cv:
           - "Selección técnica y especificación de gabinetes estancos industriales según requerimientos ambientales y de campo."
           - "Puesta en marcha en banco de prueba y desarrollo de firmware puntual asistido por herramientas de IA (Claude Code, Antigravity) para validación de hardware."
 
+    proyectos_destacados:
+      - name: Sistema de Telerrobótica con Mano Antropomórfica Impresa en 3D
+        start_date: 2025
+        end_date: present
+        summary: "Proyecto Final de Carrera (DIEC - UNS) — ESP32, ESP-NOW, FreeRTOS, Impresión 3D, MPU6050, Filtro de Kalman."
+        highlights:
+          - "Desarrollo de un sistema telerrobótico para replicar movimientos de mano y muñeca humanas en tiempo real sobre una mano robótica antropomórfica impresa en 3D."
+          - "Arquitectura inalámbrica punto a punto con dos nodos ESP32 comunicados mediante ESP-NOW (2.4 GHz, latencia < 5 ms, lazo de control a 50 Hz)."
+          - "Sensado de flexión de dedos y orientación de muñeca (Pitch/Roll) con IMU MPU6050 filtrada mediante Filtro de Kalman y calibración interactiva en memoria Flash (NVS)."
+          - "Firmware en C/C++ sobre FreeRTOS multitarea con protocolo binario estructurado y validación de tramas por checksum Fletcher-16."
+          - "Control PWM de servomotores con limitación de slew-rate para suavizado de trayectorias mecánicas y rutinas de failsafe ante pérdidas de señal."
+
     educación:
       - institution: Universidad Nacional del Sur
         area: Ingeniería Electrónica
-        degree: Ingeniero Electrónico
+        degree: Ingeniero Electrónico (en curso - Proyecto Final en desarrollo)
         start_date: 2021
-        end_date: 2026
+        end_date: present
 
     habilidades_técnicas:
       - label: Diseño de Hardware y EDA

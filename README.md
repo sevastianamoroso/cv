@@ -1,4 +1,4 @@
-# CV — Agustin Loos
+# CV — Sebastian Amoroso
 
 Personal CV managed as code. Write content in YAML, generate publication-quality PDFs with [RenderCV](https://github.com/sinaatalay/rendercv).
 
@@ -125,11 +125,11 @@ Generated files go to `output/<lang>-<theme>/`:
 ```
 output/
 ├── en-classic/
-│   ├── Agustin_Loos_CV.pdf      # PDF
-│   ├── Agustin_Loos_CV.typ      # Typst source
-│   ├── Agustin_Loos_CV_1.png    # Page previews
-│   ├── Agustin_Loos_CV_2.png
-│   └── Agustin_Loos_CV_3.png
+│   ├── Sebastian_Amoroso_CV.pdf      # PDF
+│   ├── Sebastian_Amoroso_CV.typ      # Typst source
+│   ├── Sebastian_Amoroso_CV_1.png    # Page previews
+│   ├── Sebastian_Amoroso_CV_2.png
+│   └── ...
 └── es-classic/
     └── ...
 ```
@@ -138,9 +138,9 @@ output/
 
 ```
 output/pdf/
-├── Agustin_Loos_CV_en-classic.pdf
-├── Agustin_Loos_CV_en-harvard.pdf
-├── Agustin_Loos_CV_es-classic.pdf
+├── Sebastian_Amoroso_CV_en-classic.pdf
+├── Sebastian_Amoroso_CV_en-harvard.pdf
+├── Sebastian_Amoroso_CV_es-classic.pdf
 └── ...
 ```
 

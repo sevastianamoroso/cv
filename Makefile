@@ -56,7 +56,7 @@ collect: all
 	@mkdir -p $(OUTPUT)/pdf
 	@for lang in $(LANGS); do \
 		for theme in $(THEMES); do \
-			find $(OUTPUT)/$$lang-$$theme -name "*.pdf" -exec cp {} $(OUTPUT)/pdf/Agustin_Loos_CV_$$lang-$$theme.pdf \; ; \
+			find $(OUTPUT)/$$lang-$$theme -name "*.pdf" -exec cp {} $(OUTPUT)/pdf/Sebastian_Amoroso_CV_$$lang-$$theme.pdf \; ; \
 		done; \
 	done
 	@echo "All PDFs collected in $(OUTPUT)/pdf/"
