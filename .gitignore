@@ -2,3 +2,15 @@
 output/
 rendercv_output/
 cv/rendercv_output/
+
+# Agent/tool config
+.agents/
+.atl/
+.claude/
+.gemini/
+
+# Original Word files
+*.docx
+
+# Misc
+skills-lock.json

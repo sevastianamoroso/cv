@@ -1,0 +1,23 @@
+# Minimal — clean black and white, no icons, no footer
+design:
+  theme: classic
+  page:
+    show_footer: false
+    show_top_note: false
+  colors:
+    name: rgb(0, 0, 0)
+    headline: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 0, 0)
+  header:
+    connections:
+      show_icons: false
+      separator: "|"
+      space_between_connections: 0.4cm
+  section_titles:
+    type: with_full_line
+    line_thickness: 0.5pt
+  links:
+    underline: false
+    show_external_link_icon: false

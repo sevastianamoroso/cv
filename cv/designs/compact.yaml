@@ -1,0 +1,29 @@
+# Compact classic — tighter margins and smaller font for 2-page CVs
+design:
+  theme: classic
+  page:
+    top_margin: 0.5in
+    bottom_margin: 0.5in
+    left_margin: 0.5in
+    right_margin: 0.5in
+  typography:
+    font_size:
+      body: 9pt
+      name: 26pt
+      headline: 9pt
+      connections: 9pt
+      section_titles: 1.3em
+    line_spacing: 0.55em
+  header:
+    space_below_name: 0.4cm
+    space_below_headline: 0.4cm
+    space_below_connections: 0.4cm
+  section_titles:
+    space_above: 0.35cm
+    space_below: 0.2cm
+  sections:
+    space_between_regular_entries: 0.9em
+  entries:
+    highlights:
+      space_above: 0cm
+      space_between_items: 0cm

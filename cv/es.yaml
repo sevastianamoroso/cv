@@ -66,3 +66,6 @@ cv:
         details: Nativo
       - label: Inglés
         details: Avanzado (CAE - Certificate in Advanced English)
+
+locale:
+  language: spanish

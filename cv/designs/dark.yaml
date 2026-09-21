@@ -1,0 +1,16 @@
+# Dark accent — classic theme with dark teal color scheme
+design:
+  theme: classic
+  colors:
+    name: rgb(0, 60, 67)
+    headline: rgb(0, 60, 67)
+    connections: rgb(0, 60, 67)
+    section_titles: rgb(0, 60, 67)
+    links: rgb(0, 60, 67)
+  typography:
+    font_family:
+      body: Charter
+      name: Charter
+      headline: Charter
+      connections: Charter
+      section_titles: Charter
