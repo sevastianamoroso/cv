@@ -43,9 +43,10 @@ cv:
     education:
       - institution: Universidad Nacional del Sur
         area: Electronic Engineering
-        degree: Electronic Engineer (In progress - Capstone Project in development)
         start_date: 2021
         end_date: present
+        highlights:
+          - "Electronic Engineer — In progress, Capstone Project in development (Telerobotics, Embedded Systems, ESP32)."
 
     skills:
       - label: Hardware Design & EDA

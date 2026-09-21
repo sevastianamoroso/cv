@@ -43,9 +43,10 @@ cv:
     educación:
       - institution: Universidad Nacional del Sur
         area: Ingeniería Electrónica
-        degree: Ingeniero Electrónico (en curso - Proyecto Final en desarrollo)
         start_date: 2021
         end_date: present
+        highlights:
+          - "Ingeniero Electrónico — en curso, Proyecto Final en desarrollo (Telerrobótica, Sistemas Embebidos, ESP32)."
 
     habilidades_técnicas:
       - label: Diseño de Hardware y EDA
